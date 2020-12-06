@@ -25,21 +25,17 @@ class passport_processor {
     }
     int count = 0;
     for(int i=0; i<lines.size(); i++){
-      System.out.println(lines.get(i));
       count += checker(lines.get(i));
-      System.out.println("count: " + count);
     }
     System.out.println(count);
   }
 
   static int checker(String s){
     String[] pairs = s.split(" ");
-    System.out.println("len: " + pairs.length);
     if(pairs.length < 7) return 0;
     if(pairs.length == 8) return 1;
     for(int i=0; i<pairs.length; i++){
       String[] temp = pairs[i].split(":");
-      System.out.println("temp: " + temp[0]);
       if(temp[0].equals("cid")) return 0;
     }
     return 1;
