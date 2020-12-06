@@ -1,0 +1,1 @@
+Determine whether passports are valid or not. A passport is valid if it has 8 fields, or if it has 7 fields and the missing field is "cid". 
