@@ -1,0 +1,1 @@
+Change one line (either "nop" or "jmp") to make the program run to completion. Return the total after changing the line. 
