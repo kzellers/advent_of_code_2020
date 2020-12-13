@@ -1,0 +1,1 @@
+Determine how many paths you can take from the first number to the last number. You can only visit values that are at most 3 above the current value.
