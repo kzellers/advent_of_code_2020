@@ -1,0 +1,1 @@
+Occupied seats are determined based on how many adjacent seats are occupied. Count the number of occupied seats after the map stabilizing (seats stop shifting between occupied and empty).
